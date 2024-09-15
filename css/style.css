@@ -1,0 +1,82 @@
+body {
+    font-family: roboto;
+}
+
+.container {
+    max-width: 260px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 80px 0;
+}
+
+#logo {
+    max-width: 100%;
+    margin: 0 auto 80px;
+}
+
+#logo .letters {
+    padding: 0;
+    width: 16.25em;
+    margin: 0 auto;
+    opacity: 0;
+    transition: opacity .5s;
+}
+
+#logo .letters img {
+    height: 5.625em;
+    margin: 0 0;
+    transition: transform 1s .5s ease;
+}
+
+#logo .horiz-line {
+    background: black;
+    width: 0;
+    height: 0.25rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1.4375rem;
+    transition: width 1s 1s;
+}
+
+#logo .architects {
+    width: 100%;
+    opacity: 0;
+    transition: opacity 1s 1.2s;
+}
+
+.content {
+    opacity: 0;
+    transition: opacity 1s 1.8s;
+}
+
+
+.move #logo .letters {
+    opacity: 1;
+}
+
+.move #logo .letters .B {
+    transform: translateX(-5.125em);
+}
+
+.move #logo .letters .E {
+    transform: translateX(-1.75em);
+}
+
+.move #logo .letters .H {
+    transform: translateX(1.75em);
+}
+
+.move #logo .letters .M {
+    transform: translateX(5.125em);
+}
+
+.move #logo .horiz-line {
+    width: 100%;
+}
+
+.move #logo .architects {
+    opacity: 1;
+}
+
+.move .content {
+    opacity: 1;
+}
