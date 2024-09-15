@@ -1,0 +1,26 @@
+{
+  "name": "behmarchitects.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".eleventy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx @11ty/eleventy",
+    "serve": "ENV=dev npx @11ty/eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jclaw/behmarchitects.com.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "@11ty/eleventy-img": "^4.0.2"
+  },
+  "devDependencies": {
+    "jshint": "^2.13.6",
+    "standard": "^17.1.2"
+  }
+}
