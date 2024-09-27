@@ -1,5 +1,11 @@
 body {
-    font-family: roboto;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    color: black;
+}
+
+a {
+    color: black;
 }
 
 .container {
